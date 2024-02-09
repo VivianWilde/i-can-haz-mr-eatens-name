@@ -1,0 +1,21 @@
+#+title: Project1: Lolcode Adventure Game
+
+* Code/Design
+
+* Overthinking the Story
+
+** Four character choices
+- Persuasive
+- Watchful
+- Dangerous
+- Shadowy
+
+** Game: Fallen London
+- Quest: Travel North, Seeking The Name, or some similar forbidden knowledge, represented by unprintable strings and a system crash if we feel brave
+*** Endings
+1. By a Herculean effort, you turn aside from the Search. Your reputation is ruined, and the nightmares may never cease. But you are still you, and the sun still shines. Option shows up after some specific events
+2. You perish in the search, devoured by monsters from before the world had a name. When you pick a self-evidently stupid option, which we will throw in for fun.
+3. You travel far enough North to meet the Speaker. Bloodied and with your mind half-gone, you ask the question that has been on your lips since before you last slept. Xey respond in something that is both more and less than words (Read: Incomprehensible unicode gibberish that may or may not crash your terminal window)
+
+
+** COMMENT Game: My own design
