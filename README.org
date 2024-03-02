@@ -1,0 +1,7 @@
+* I Can Haz Mr. Eaten's Name?
+A linear text-adventure game about eldritch knowledge and self-destruction, written in a programming language based on 2010s cat memes.
+** Acknowledgements
+- Justin Meza for creating LOLCODE, the only good programming language: https://github.com/justinmeza/lolcode-spec
+- Failbetter Games for creating the wonderful wonderful game that is Fallen London, and in particular for the Seeking Mr. Eaten's Name storyline. Bits and pieces of game dialogue are stolen from there.
+** Playing
+If for whatever reason you actually want to play this game, you can install the LOLCODE interpreter LCI: https://github.com/justinmeza/lci and run ~lci seek.lol~. Some prompts are free response, for most you will be presented with a choice and you should enter the number corresponding to that choice.

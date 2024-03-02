@@ -10,12 +10,171 @@
 - Dangerous
 - Shadowy
 
+The game is a not-quite-linear sequence of storylets. On each storylet, some generic options, and possibly some choice-locked options.
+
+Nightmares counter. Default choices will sometimes increase Nightmares.
+
 ** Game: Fallen London
-- Quest: Travel North, Seeking The Name, or some similar forbidden knowledge, represented by unprintable strings and a system crash if we feel brave
+- Quest: Travel North, Seeking The Name, or some similar forbidden knowledge, represented by unprintable strings and a system crash if we feel brave.
+- Begin the search:
+- The first phase is to acquire St Cerise's candle.
+- After this phase, you get the option to bow out gracefully. Leave the candle where you found it, or keep it on your mantelpiece.
+- If you continue, hold the candle.
+- The next is to
 *** Endings
-1. By a Herculean effort, you turn aside from the Search. Your reputation is ruined, and the nightmares may never cease. But you are still you, and the sun still shines. Option shows up after some specific events
-2. You perish in the search, devoured by monsters from before the world had a name. When you pick a self-evidently stupid option, which we will throw in for fun.
-3. You travel far enough North to meet the Speaker. Bloodied and with your mind half-gone, you ask the question that has been on your lips since before you last slept. Xey respond in something that is both more and less than words (Read: Incomprehensible unicode gibberish that may or may not crash your terminal window)
+1. By a Herculean effort, you turn aside from the Search. Your reputation is ruined, and the nightmares may never cease. But you are still you, and the sun still shines. Option shows up after you experience anything especially horrific, as a chance to turn back.
+2. You perish in the search, devoured by monsters from before the world had a name. When nightmares reach 8.
+3. You travel far enough North to meet the Speaker. Bloodied and with your mind half-gone, you ask the question that has been on your lips since the last time you slept - how long was that? Xey respond in something that is both more and less than words (Read: Incomprehensible unicode gibberish that may or may not crash your terminal window)
+
+* Fleshing Out the Story
+
+Welcome to the Fifth City, delicious friend! Where Hell is close, immortality is cheap, and the screaming has largely stopped.
+Fallen London is a harsh place, and most who live here have had their souls stolen or ground to dust. But you are special - You have risen to prominence within our fair city. You are a hero, and there are none who do not know the name of:
+
+: Input your name, we save it
+
+There are as many stories of your rise to fame as there are bees in Newgate, some recorded in the histories and others in hushed whispers in a pub. Perhaps some of them are even true. Nonetheless, they all agree on one thing: That you are a:
+[NOTE: This will set your specialisation for the game, which may unlock certain story options, both good and bad]
+
+: 1. Extraordinary Mind (Watchful)
+: 2. Legendary Charisma (Persuasive)
+: 3. Shattering Force (Dangerous)
+: 4. Invisible Eminence (Shadowy)
+
+Admired by all, and wealthy beyond your wildest dreams, you could want for nothing.
+
+: 1. Except...
+
+One night, when you were young you dreamed of a well and a voice that whispered from it. It promised nothing but destruction but it sung so sweetly that even as you woke tossing and turning, you felt not terror but its twin of purest wonder. You did not _want_ to hear that song, but you felt like you needed to. You turned away from it then - you were busy making your name, and you did not have time to spare chasing down secrets. For a week, you took laudanum before you slept and passed your nights in peaceful slumber, and the dreams never returned.
+
+Even now, your nights are dreamless. But you remember what it said to you, all those years ago.
+
+'The Apostate's Candle shall be your only light. Travel North to the very ends of the Neath with only the Candle in your hands, and ask me whatever you will. The answer will destroy you and it will mean less than nothing, but in your last moments you shall have it.'
+
+You are no longer young now. With all you have learned, you could find the Candle and seek the Answer. Perhaps part of you could even survive the experience.
+
+: 1. No. Turn away from this madness [This will end the game]
+: 2. Walk the Seeker's Path, to the bitter end if it lets you.
+
+#+begin_option
+1. That night, the song comes to you again for a last time. You plug your ears with wax and when you wake up you drink to forget. The last thing you hear is rasping laughter that sounds like a knife, as if whatever horror sang to you finds your cowardice amusing. It saddens you a little, but you have made your choice. <Exit()>
+2. That night, the song comes to you again, sung by a choir of things that are both more and less than human. It's clearer now, as if the morbid chorus has acknowledged your conviction. And for the first time, you understand.
+=A twist in your tale! You are now A Seeker of The Name.=
+=Nightmares has increased by 1. Don't let it reach 5=
+#+end_option
+
+The next morning you awake with ringing ears and blood in your mouth. You cannot recall any of that nightmarishly beautiful melody, except for a half-forgotten story about The Cave of the Nadir - a hole in the world beneath London's Forgotten Quarter, where the Apostate's Candle (and her broken corpse) can be found by those foolish enough to look.
+
+: 1. Ask your friend, the Scholar of the Correspondence, about the Cave.
+: 2. Throw caution to the winds and wander the Forgotten Quarter.
+
+#+begin_option
+1. Your friend pales at your question, but fae has known you long enough to realise that you will not be deterred. Your friend marks the location of the Cave of the Nadir on your map with a trembling hand. Fae hugs you tightly as you leave, as if terrified of letting go. The next night, you set out for the Quarter.
+2. That night, you don your adventuring gear and walk the Quarter, but you are not the only one. You're accosted by a Devil with a perfectly-tailored suit and a smile that doesn't quite reach its eyes.
+ 'Are you a Seeker? The haunted expression and desperate, hungry eyes are quite a giveaway. I do so enjoy watching humans destroy themselves, so I shall grant you a gift.'
+It touches your wrist, and you feel a searing pain as a map brands itself onto your skin. The pain makes it hard to think, but you got what you wanted. You know the way to the cave.
+=Nightmares has increased by 1. Don't let it reach 5.=
+#+end_option
+
+The path to the Cave takes you past ruins that would be the envy of any archaeologist, but you have no time for any of them.
+
+The Cave of the Nadir is well-hidden, but your map sees you past the perils and soon you stand at the mouth of a cave bathed in something that is not quite moonlight. If you enter here you will be changed, and not for the better.
+
+: 1. You steel yourself, and step inside.
+
+The Cave is beautiful - in the eerie light, your shadow is transformed into something which dances almost with a will of its own.
+You walk forward a few paces. In the silence, your steps ring out like gunshots. You did not bring a lantern, but the false moonlight of the Cave guides your way to its source - a tiny orb of moonlight, burning so bright it hurts your eyes.
+
+As you try to look away from it, the light... softens, expanding into the form of a woman. Even on xer ghostly body, the marks of wounds are visible, and although xe tries to hide it xer eyes glow with an ancient terror.
+
+Xe looks right at you, and you see the sadness in her eyes, behind the terror. 'It has been a long time since I met someone who sought self-destruction as ceaselessly as I. Our path is a bloody one, but I could not ask you to turn from it - how could I, when I walked it so resolutely in my time? You may have the Candle - to hold it carries a terrible price, but you have the look of one who has paid enough of those in their time.'
+
+: 1. Onward
+
+The Apostate vanishes, and where xe stood you now see seven branching paths, each shining with a different color of the Neathbow. Each path hungers for a part of you, promising you a Candle in return.
+
+: 1. Irrigo: Your Memories
+: 2. Violant: Your Friendships
+: 3. Cosmogene: Your Dreams
+: 4. Pelligin: Your Sight [TW Eye Trauma]
+: 5. Viric: Your Sleep
+: 6. Gant: Your Soul
+: 7. Apocyan: Your Legacy
 
 
-** COMMENT Game: My own design
+You find the Candle standing tall and burning <color you picked>.
+
+#+begin_options
+1. As you take the Candle, it burns brightly for a moment, consuming your identity like fuel. Who were you again? You are the Seeker, who will succeed where the Apostate failed. Perhaps you were someone else once - it is of no consequence.
+2. You take a letter from your pocket - from the Scholar of the Correspondence, from many years ago - and set it ablaze. It burns a rich burgundy flame, and you feel as the Candle somehow severs the bonds between. You wanted this, you tell yourself.
+3. You had ambitions, once. A Heart's Desire to be won, a Nemesis to be slain, or an Enigma to be unravelled. But if you wish to Seek, you cannot be distracted by such petty baubles. If you cannot put them from your mind yourself, the Candle will gladly take them from you.
+4. Once upon a time you called yourself watchful, and boasted that nothing could elude your gaze. But the Candle's price will put an end to that. You brace yourself for pain as you raise the Candle to your left eye, but mercifully there is none. When you come to the world seems blurry, and you stumble a few times as you leave the cave.
+5. These days, you only sleep to hear the maddened choir's song, and you awaken more exhausted then when you slept. Your sleep is hardly a great loss. You pay the price easily, and as you feel a piece of your humanity slip away, what's left of you is glad to see the back of it.
+6. It's a miracle you managed to hold onto it this long, really. You expected it to be lost to some upstart devil in a card game by now, but you can't deny this is a more dignified way to give it up. There is no hand to shake, so you simply hold yours in the flame for a few painful moments to seal the deal.
+7. You think for a moment about all you have wrought. Do you even have the right to throw it away? The uncertainty lasts only a moment. If it was yours to create, it is yours to destroy. Even if doing so makes a mockery of all your labours and of everything you stand for. The Candle burns brightly for a moment, and you _sense_ rather than see it consume your legacy.
+#+end_options
+NOTE: If you pick 1, overwrite the character name variable with the name 'Seeker', just for vibes.
+
+As you look at the candle, hypnotised by its flame, you can't help but think about what you have thrown away, and what more this path will cost you. You no longer have any illusions about being able to survive this - if you continue down this path, it will be your end. There is no longer any doubt in your mind about that.
+
+You cannot regain what has been lost, nor can you return the Candle - it is bound to you by the weight of your sacrifice. But you can tear yourself away from this mad quest, and attempt to rebuild the part of your self that the Candle burned away.
+
+: 1. Leave the Cave, return to London proper, and give up the search.
+: 2. Forge on. You must know. You will know.
+
+#+begin_options
+1. The prospect of never hearing the song again hurts almost more than you can bear, but your life is worth more to you than whatever answers it promises. By a Herculean effort, you turn aside from the search. You are no longer quite whole, the candle saw to that. But you are still you, and the world still turns. You return to your lodgings in London, and attempt to recall the person you once were. You never regain your former stature, but you sleep soundly at nights, and in time you even stop yearning for the maddened choir's song. <Exit()>
+2. You did not come this far only to shrink at the last. Your question, whatever it is, is important enough that your life is a small price to pay. You will take the Candle to the North, and pay whatever price the voice demands.
+#+end_options
+
+As you commit to your choice, and take a further step down the Seeker's path, the Candle responds. Its light does not burn any brighter, but you find that you know where you must go now - to the Avid Horizon, at the very tip of the Neath. You may bring food and water to last the journey, but the Candle must be your only companion. You could not say how you know all this, only that you do know it, with a certainty so terrible you feel it in your very bones.
+
+: 1. Go North.
+
+The journey, surprisingly, is peaceful. The sea-monsters recognise something of the aura of the Seeker, and know to stay away. You spend the journey in contemplation, wondering what question you shall ask. You hope you will get to choose, at the end.
+
+: 1. Sleep, and dream of a Name. [This will increase your Nightmares to a critical level!]
+: 2. Sleep dreamlessly.
+
+Upon the island is a Pillar of Ignominies. Carved into it are the names of those who came before you, seeking the name. The Pillar stand tall, reaching up into the sky, but you could count the names on it on one hand. By the side of it lies a spear, the same one used by all the others to carve their names.
+: 1. Gaze upon the Pillar, seeking names you recognise
+: 2. Take a moment to carve your own name into the Pillar
+: 3. Move on. Only one Name matters here, and it will not be found on the Pillar
+
+#+begin_options
+1. You recognise the name of the Northbound Parliamentarian. A mentor of yours, before e went mad and disappeared without a trace. At least now you know where e ended up.
+=Nightmares has increased by 1. Don't let it reach 5=
+2. Your hand trembles as you lift the spear, and you barely remember your own name, but you manage to carve it. You gaze upon your last name and remember your family. Are they still alive, or have they returned to dust? You would have cared once, but that was before you held the Candle.
+3. A wise decision. The cold eats at you, and you are here with a purpose. The Pillar holds no answers, at least none to the questions that you care for.
+#+end_options
+
+You walk for what feels like hours. The icy wind is a harsh and cruel mistress but you barely feel it, wrapped up in the horrid ecstasy of being this near to your answer. Finally, you come upon a gate the color of night. You're not sure why, but it feels _right_ that it should be here, and nowhere else.
+
+: 1. Knock.
+: 2. Look into the stars.
+: 3. Ask.
+
+#+begin_options
+1. Your hands freeze and shatter, falling in shards of tinkling bloody ice. There is no response, but you feel _something_ behind the gate turn in your direction, watching expectantly. The time has come to ask your question - I hope for your sake that it is a good one.
+2. You look up and see the stars - real stars, burning in the spaces of heaven. You do not know how long it's been since you last saw them. The sight is so beautiful, it almost excuses all you have done. (TODO You get some really pretty ASCII art of stars.) <Exit()>
+3. You have brought your question this far. All that remains is to muster up your courage and ask it.
+#+end_options
+
+: Input: A question
+
+
+The question echoes in the silence. For a brief, terrible moment there is no response and you have to contemplate the possibility - no, the certainty - that this has all been for nothing.
+
+You were warned of this, when you embarked on your journey. That the answer would mean less than nothing to you, and that it would bring you no solace. Even so you were unprepared for... this. As your mind folds under the pressure, part of you wonders what you expected - for something so ancient and malevolent as this to respond with a simple 'yes' or 'no'? To even use something as fallible as human language? You cannot comprehend an iota of whatever you hear, but you trust that if you could interpret it, the answer to your question has been given.
+You die as you lived - with a question on your lips, desperately seeking an answer that you know will bring you nothing but pain.
+
+<TODO: Mojibake>
+
+** Nightmare Ending
+Everytime we incr nightmares, also do a check if nightmares >=5. If so, autofire this text and exit:
+
+(Your Nightmares have reached a critical level!)
+Everything falls into place and you realise, finally, what it is you've been Seeking. You try to clear your mind of it, but too late - you may not have uttered the Name but you have thought it, and for something so ancient and malevolent that is enough. The horrid fragments of insight, now reunited, infect your mind swiftly, eating away at every memory of yours that offends them.
+You scream until your vocal cords are shredded and the experience seems to last an eternity. But to anyone watching, it takes barely a minute until you collapse like a puppet who's strings have been severed.
+
+<Exit()>
